@@ -18,6 +18,7 @@ public class Transpose {
 
             }
             System.out.println();
+
         }
 
         System.out.println("Transpose of the matrix is: ");
