@@ -17,9 +17,9 @@ public class Interest {
             double rate = 0.05; // Annual interest rate (5%)
             int years = 10; // Number of years
 
-            double futureValue = computeFutureValue(principal, rate, years);
+            double xfutureValue = computeFutureValue(principal, rate, years);
 
-            System.out.printf("The future investment value is: %.2f%n", futureValue);
+            System.out.printf("The future investment value is: %.3f%n " , xfutureValue);
         }
     }
 

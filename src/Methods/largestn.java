@@ -16,7 +16,7 @@ public class largestn {
         }
 
         public static void main(String[] args) {
-            int[] numbers = {10, 20, 5, 35, 50, 15};
+            int[] numbers = {10, 20, 5, 80, 50, 15};
 
             int largestNumber = findLargest(numbers);
 

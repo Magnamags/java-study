@@ -1,7 +1,6 @@
 package Methods;
 
 public class leap {
-    // Method to check if a year is a leap year
         public static boolean isLeapYear(int year) {
             // Check if the year is divisible by 4
             if (year % 4 == 0) {
@@ -16,11 +15,10 @@ public class leap {
             }
         }
         public static void main(String[] args) {
-            // Example usage
-            int year = 2024; // You can change this to any year you want to check
+            int year = 1998;
 
             if (isLeapYear(year)) {
-                System.out.printf("%d is a leap year.%n", year);
+                System.out.printf("%d is a leap year .%n ", year);
             } else {
                 System.out.printf("%d is not a leap year.%n", year);
             }
