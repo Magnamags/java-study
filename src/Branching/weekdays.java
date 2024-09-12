@@ -21,7 +21,7 @@ public class weekdays {
             System.out.println("This is a Friday");
         else if (num == 7)
             System.out.println("This is a Saturday");
-        else
-            System.out.println("The value should be between 1-7 ");
+       else
+           System.out.println("The value should be between 1-7 ");
     }
 }

@@ -5,7 +5,7 @@ public class MultiplicationTable {
         int N = 2;
         int Range = 10;
         int i=1;
-        while (i <= Range){
+       while (i <= Range){
             System.out.println(N + " * " + i + " = "+ N*i );
             i++;
         }

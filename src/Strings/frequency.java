@@ -10,8 +10,7 @@ public class frequency {
     sentence = sentence.toLowerCase();
     wordToFind = wordToFind.toLowerCase();
     // Split the sentence into words by spaces
-    String[] words = sentence.split(" ");
-
+        String[] words = sentence.split(" ");
     // Initialize a counter to store the frequency
     int frequency = 0;
     // Loop through the words array to count occurrences of wordToFind
@@ -21,7 +20,6 @@ public class frequency {
             frequency++;
         }
     }
-    // Print the result
         System.out.println("Frequency of '" + wordToFind + "' in the sentence:");
         System.out.println(sentence);
         System.out.println("is " + frequency);

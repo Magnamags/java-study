@@ -8,11 +8,11 @@ public class Swapping {
         Scanner sc = new Scanner(System.in);
         int a= sc.nextInt();
         int b= sc.nextInt();
-        System.out.println("Before swapping: "+a+" "+b);
+        System.out.println("Before swapping: " +a+ " " +b);
         a=a+b;
         b=a-b;
         a=a-b;
-        System.out.println("After swapping: "+a+" "+b);
+        System.out.println("After swapping: " +a+ " " +b);
 
     }
 

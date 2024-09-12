@@ -19,7 +19,7 @@ public class Interest {
 
             double xfutureValue = computeFutureValue(principal, rate, years);
 
-            System.out.printf("The future investment value is: %.3f%n " , xfutureValue);
+            System.out.printf("The future investment value is: %.2f%n " , xfutureValue);
         }
     }
 
